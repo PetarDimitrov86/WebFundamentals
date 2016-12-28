@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Praise the JS</title>
+</head>
+<body>
+    <canvas id="JsRulez" width="350" height="350" style="border:5px dotted red">
+
+    </canvas>
+    <script>
+        let ctx = document.getElementById("JsRulez").getContext("2d");
+        ctx.font="45px Gesta";
+        ctx.fillText("I love JavaScript", 20, 65);
+        ctx.fillStyle="#F0DB4E";
+        ctx.fillRect(80, 100, 175, 175);
+        ctx.font="bold 100px Arial";
+        ctx.fillStyle="black";
+        ctx.fillText("JS", 125, 265)
+    </script>
+</body>
+</html>
