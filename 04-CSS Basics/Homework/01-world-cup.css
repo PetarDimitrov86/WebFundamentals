@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(0, 146, 62);
+}
+#wrapper{
+    width:1000px;
+    border-spacing: 0;
+}
+#table-header>th{
+    background-color: #F8C711;
+    font-size: 30px;
+
+}
+th, tr, td{
+    border:solid 1px black;
+    padding: 6px;
+    font-size: 20px;
+}
+#table-header>th:first-child{
+    border-top-left-radius: 10px;
+}
+#table-header>th:last-child{
+    border-top-right-radius: 10px;
+}
+tr:last-child>td:last-child{
+    border-bottom-right-radius: 10px;
+}
+tr:last-child>td:first-child{
+    border-bottom-left-radius: 10px;
+}
+
+#first-country{
+    text-align: right;
+}
+#second-country{
+    text-align: left;
+}
+
+.wide-cell{
+    width: 18%;
+}
+.narrow-cell{
+    width: 8%;
+}
+tr.odd{
+    background-color: white;
+}
+
+tr.even{
+    background-color: #C8C8C8;
+}
+
+tr>td:nth-child(1), tr>td:nth-child(5){
+    text-align: right;
+}
+
+tr>td:nth-child(2), tr>td:nth-child(4),tr>td:nth-child(6), tr>td:nth-child(8){
+    text-align: center;
+}
+
+tr>td:nth-child(5),tr>td:nth-child(7){
+    width: 15%;
+}
+#brazil{
+    background-image: url('Flags/brazil.png');
+}
+#germany{
+    background-image: url('Flags/germany.gif');
+}
+#portugal{
+    background-image: url('Flags/portugal.png');
+}
+#spain{
+    background-image: url('Flags/spain.png');
+}
+#mexico {
+    background-image: url('Flags/mexico.png');
+}
+#bosnia{
+    background-image: url('Flags/bosnia.gif');
+}
+#netherlands {
+    background-image: url('Flags/netherlands.png');
+}
+#england {
+    background-image: url('Flags/england.png');
+}
+#italy {
+    background-image: url('Flags/italy.png');
+}
+#argentina {
+    background-image: url('Flags/argentina.png');
+}
+
+img{
+    width: 25px;
+    height: 16px;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.red, .green{
+    width:30px;
+    height: 30px;
+    margin-left:3px;
+    margin-right:3px;
+}
+
+.red{
+    background-color: #DCDCDC;
+    color:red;
+}
+.green{
+    color:green;
+}
+
+img.red, img.green{
+    width:35px;
+    height: 35px;
+    padding: 0;
+    margin:0;
+}
+
+img.red{
+    background-image: url('Buttons/red.png');
+
+}
+
+img.green{
+    background-image: url('Buttons/green.png');
+
+}
