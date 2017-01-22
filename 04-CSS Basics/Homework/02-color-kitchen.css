@@ -1,0 +1,128 @@
+body{
+    width: 1582px;
+    height: 2536px;
+    background-image: url('colorful_dots_on_black.jpg');
+    font-size:20px;
+    margin:0px
+}
+
+aside, article{
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding:15px;
+}
+aside{
+    width: 20%;
+    line-height: 2;
+    float: left;
+}
+
+section{
+    padding:0;
+}
+article{
+    margin: 10px;
+    float: right;
+    width: 73%;
+}
+nav>header{
+    padding-left:10px;
+    font-size: 175%;
+    text-decoration: underline;
+}
+
+body>header{
+    width: 33%;
+    margin : 0 auto;
+    background-color: green;
+    color: yellow;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 300%;
+    padding-bottom: 30px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 15px;
+}
+ul li:before
+{
+    margin-right: 5px;
+    content: "\2705";
+    float: left;
+}
+article>header{
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 200%;
+}
+footer{
+    padding-left: 5px;
+}
+
+div, section, aside{
+    border-radius: 20px;
+    padding:10px;
+}
+
+a:link{
+    text-decoration: none;
+    color:black;
+}
+a:visited{
+    text-decoration: none;
+    color:gray;
+}
+#webColors, ul>li:nth-child(1):hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+#webSafeColors, ul>li:nth-child(2):hover{
+    background-color: rgb(255, 165, 0);
+    color:black;
+}
+#RGB, ul>li:nth-child(3):hover{
+    background-color: rgb(255, 255, 0);
+    color:black;
+}
+#RGBA, ul>li:nth-child(4):hover{
+    background-color: rgb(0, 128, 0);
+    color:white;
+}
+#HSLHSV, ul>li:nth-child(5):hover{
+    background-color: rgb(0, 0, 255);
+    color:white;
+}
+#lorem, ul>li:nth-child(6):hover{
+    background-color: rgb(128, 0, 128);
+    color:white;
+}
+li:hover{
+    border-radius: 10px;
+    width: 95%;
+    padding-left: 5px;
+}
+
+div:first-letter{
+    font-size: 400%;
+}
+div::first-line{
+    font-size: 110%;
+    font-style: italic;
+}
+article footer{
+    font-style: italic;
+    color:gray;
+    text-decoration: underline;
+}
+
+span[lang='la']{
+    font-style: italic;
+    color: rgb(0, 0, 139);
+}
+
+span[lang='la']:before, span[lang='la']:after {
+    content: '"';
+}
