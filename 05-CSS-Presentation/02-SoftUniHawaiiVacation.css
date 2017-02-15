@@ -1,5 +1,12 @@
+@font-face {
+    font-family: 'Hawaii SoftUni Font';
+src : url('images/Animated.ttf') format('truetype')
+}
+
 #wrapper {
     position: relative;
+    background-repeat : no-repeat;
+    background-image: radial-gradient(farthest-side, white, blue); /* W3C */
 }
 
 div>div{
@@ -7,31 +14,40 @@ div>div{
 }
 
 #vladoG {
-    left: 50px;
-    bottom: 50px
+    left: 80px;
+    bottom: 60px
 }
 
 #petia {
-    left: 200px;
-    bottom: 50px;
+    left: 360px;
+    bottom: 70px;
 }
 
 #tedi {
-    left: 270px;
+    left: 520px;
     bottom: 30px;
 }
 
 #nakov {
-    left: 420px;
-    bottom: 50px;
+    left: 820px;
+    bottom: 80px;
 }
 
 #alex {
-    left: 500px;
-    bottom: 30px;
+    left: 980px;
+    bottom: 40px;
 }
 
 #vladoK {
-    left: 680px;
-    bottom: 20px;
+    left: 1335px;
+    bottom: 30px;
+}
+
+#text {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-family: "Hawaii SoftUni Font", serif ;
+    font-size: 3em;
+    color : yellow;
 }
