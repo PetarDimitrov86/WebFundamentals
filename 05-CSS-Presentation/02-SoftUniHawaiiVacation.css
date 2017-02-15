@@ -1,0 +1,37 @@
+#wrapper {
+    position: relative;
+}
+
+div>div{
+    position: absolute;
+}
+
+#vladoG {
+    left: 50px;
+    bottom: 50px
+}
+
+#petia {
+    left: 200px;
+    bottom: 50px;
+}
+
+#tedi {
+    left: 270px;
+    bottom: 30px;
+}
+
+#nakov {
+    left: 420px;
+    bottom: 50px;
+}
+
+#alex {
+    left: 500px;
+    bottom: 30px;
+}
+
+#vladoK {
+    left: 680px;
+    bottom: 20px;
+}
