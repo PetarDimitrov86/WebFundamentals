@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Form</title>
+    <style>
+        #wrapper {
+            background-color: #FFA500;
+            width: 400px;
+            padding: 3px;
+        }
+        #formId {
+            padding: 5px;
+            margin: 5px auto;
+            width: 330px;
+            background-color: #89B426;
+            border-radius: 50px;
+        }
+        .redAsterisk {
+            color: red;
+        }
+        input {
+            display: block;
+            width: 200px;
+            margin: 0 auto 10px;
+            border-radius: 20px;
+            border : 2px solid #FFA500;
+            padding: 5px;
+        }
+
+        label, table {
+            display: table;
+            margin: 0 auto 3px;
+            color: white;
+            font-weight: bold;
+            font-family: sans-serif;
+            font-size: 0.9em;
+        }
+
+        select {
+            display: inline;
+            padding: 5px;
+            width: 120px;
+            margin: 0 auto 10px;
+            border-radius: 20px;
+            background-color: #FFA500;
+        }
+
+        hr {
+            width: 85%;
+        }
+
+        input[type='checkbox'], input[type='radio'] {
+            display: inline;
+            width: 20px;
+            height: 20px;
+            margin: 5px;
+        }
+
+        .checkboxRadioText {
+            display: block;
+            width: 85%;
+            margin: 0 auto;
+            color: white;
+        }
+
+        .inp-grp {
+            display: inline-block;
+            width: 120px;
+        }
+
+        input[type='submit'] {
+            width: 180px;
+            padding: 0;
+            font-weight: bold;
+            font-size: 1.2em;
+            background-color: #FFA500;
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <div id="formId">
+        <form action="register" method="get">
+            <label for="username"><span class="redAsterisk">*</span> Username</label>
+            <input type="text" id="username" placeholder="Enter your username" autofocus="autofocus">
+
+            <label for="firstName">First name</label>
+            <input type="text" id="firstName" placeholder="Enter your first name">
+
+            <label for="lastName"><span class="redAsterisk">*</span> Last name</label>
+            <input type="text" id="lastName" placeholder="Enter your last name">
+
+            <label for="email"><span class="redAsterisk">*</span> E-mail</label>
+            <input type="email" id="email" placeholder="Enter a valid E-mail">
+
+            <label for="birthDate">Birth Date</label>
+            <input type="date" id="birthDate" value="mm/dd/yyyy">
+            <table>
+                <tr>
+                <th>
+                    <label for="genderSelect">Gender</label>
+                </th>
+                <th><label for="countrySelect">Country</label></th>
+                </tr>
+                <tr>
+                <td>
+                    <select name="gender" id="genderSelect">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other" selected="selected">Other</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="country" id="countrySelect">
+                        <optgroup label="Europe">
+                            <option value="bulgaria" selected>Bulgaria</option>
+                            <option value="england">England</option>
+                            <option value="france">France</option>
+                        </optgroup>
+                        <optgroup label="Africa">
+                            <option value="benin">Benin</option>
+                            <option value="niger">Niger</option>
+                        </optgroup>
+                    </select>
+                </td>
+                </tr>
+            </table>
+            <hr>
+            <span class="checkboxRadioText">
+                <span class="inp-grp"><input type="checkbox" name="youCan" value="youCan"/>You Can</span>
+                <span class="inp-grp"><input type="checkbox" name="choose" value="choose"/>Choose</span><br/>
+                <span class="inp-grp"><input type="checkbox" name="all" value="all"/>All</span>
+            </span>
+            <hr>
+            <span class="checkboxRadioText">
+                <span class="inp-grp"><input type="radio" name="multiple" value="or"/>Or</span>
+                <span class="inp-grp"><input type="radio" name="multiple" value="just"/>Just</span><br/>
+                <span class="inp-grp"><input type="radio" name="multiple" value="one"/>One</span>
+            </span>
+            <hr>
+            <input type="submit" value="SEND">
+        </form>
+    </div>
+</div>
+</body>
+</html>
