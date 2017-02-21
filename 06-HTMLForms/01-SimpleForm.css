@@ -1,0 +1,85 @@
+body {
+    font-family: sans-serif;
+    background-color: #EEEEEE;
+}
+
+h2 {
+    font-weight: bolder;
+    color: #234465;
+}
+
+h3 {
+    color: #666666;
+    margin: 5px;
+}
+
+form{
+    display: inline-block;
+    padding: 10px;
+}
+
+#regSign{
+    color: #234465;
+}
+
+#loginForm {
+    vertical-align: top;
+    background-color: #234465;
+    height: 320px;
+}
+
+#loginHeader{
+    color: white;
+}
+
+#chkbox {
+    width: 15px;
+    margin: 5px;
+    float:left;
+    color:white;
+    height: 15px;
+}
+
+#memba {
+    color: white;
+    font-size: 0.8em;
+}
+
+#loginContainer {
+    text-align: center;
+    float: right;
+    width: 170px;
+}
+
+#forgotPass {
+    display: inline;
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    float: none;
+    font-size: 0.7em;
+}
+
+input {
+    margin: 10px;
+    padding: 11px;
+    width: 350px;
+}
+
+input[type='submit'] {
+    border: 2px solid #234465;
+    background-color: inherit;
+    color: #234465;
+    float: right;
+    width: 170px;
+    font-weight: bolder;
+}
+
+#loginBtn {
+    float: none;
+    display: inline;
+    width: 150px;
+    margin: 0;
+    border: 2px solid #FF9C00;
+    color:white;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problem 1 : Simple Form</title>
+    <link rel="stylesheet" href="01-SimpleForm.css">
+</head>
+<body>
+<h2>Enter the system</h2>
+<p>It is necessary to login in Your account in order to sign in for a course.</p>
+<form action="#" method="get">
+    <h3>ARE YOU NEW? <span id="regSign">REGISTER</span></h3>
+    <input type="text" placeholder="User name" required="required"><br>
+    <input type="email" placeholder="Email" required="required"><br>
+    <input type="password" placeholder="Password" required="required"><br>
+    <input type="password" placeholder="Confirm Password" required="required"><br>
+    <input type="submit" value="Register">
+</form>
+<form action="#" method="get" id="loginForm">
+    <h3 id="loginHeader">ALREADY A STUDENT? LOGIN</h3>
+    <input type="text" placeholder="User name" required="required"><br>
+    <input type="password" placeholder="Password" required="required"><br>
+    <input type="checkbox" name="rememberMe" value="membaMe" id="chkbox"><span id="memba">Remember me?</span>
+    <div id="loginContainer">
+        <input id="loginBtn" type="submit" value="Login">
+        <span id="forgotPass">Forgot Password</span>
+    </div>
+</form>
+</body>
+</html>
