@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problem 2 : Flight Order</title>
+    <link rel="stylesheet" href="02-FlightOrder.css">
+</head>
+<body>
+    <div id="wrapper">
+        <h1>FLIGHT ORDER</h1>
+        <div class="small-container">
+            <label for="fromInp">From</label><br>
+            <select name="from" id="fromInp">
+                <option value="enter" selected="selected">enter a city</option>
+                <option value="Sofia">Sofia</option>
+                <option value="Pleven">Pleven</option>
+            </select>
+        </div>
+        <div class="small-container">
+            <label for="destination">To</label><br>
+            <select name="destination" id="destination">
+                <option value="enter" selected="selected">enter a city</option>
+                <option value="Sofia">Berlin</option>
+                <option value="Pleven">London</option>
+            </select><br>
+            <span class="label"><input type="checkbox" name="direct" value="direct"/>Prefer directs</span>
+        </div>
+        <div class="small-container">
+            <label for="departure">Departure Date</label><br>
+            <input type="date" id="departure" placeholder="09.06.2014">
+        </div>
+        <div class="small-container">
+            <label>Time Interval</label><br>
+            <input type="time" placeholder="00:20">
+            <input type="time" placeholder="05:00">
+        </div>
+        <div class="small-container">
+            <label for="return">Return Date</label><br>
+            <input type="date" id="return" placeholder="13.06.2014">
+        </div>
+        <div class="small-container">
+            <label>Time Interval</label><br>
+            <input type="time" placeholder="00:20">
+            <input type="time" placeholder="05:00">
+        </div>
+        <div class="small-container">
+            <label>12+</label><br>
+            <input type="number" placeholder="0" min="0", max="8">
+        </div>
+        <div class="small-container">
+            <label>2-12</label><br>
+            <input type="number" placeholder="0" min="0", max="8">
+        </div>
+        <div class="small-container">
+            <label>0-2</label><br>
+            <input type="number" placeholder="0" min="0", max="8">
+        </div>
+        <div class="small-container">
+            <label for="class">From</label><br>
+            <select name="class" id="class">
+                <option value="enter" selected="selected">Economy</option>
+                <option value="business">Business</option>
+                <option value="Pleven">First Class</option>
+            </select>
+        </div>
+        <div class="small-container">
+            <pre>                                                       </pre>
+        </div>
+        <div class="small-container" id="btn-container">
+            <input type="submit" value="Search">
+        </div>
+    </div>
+</body>
+</html>

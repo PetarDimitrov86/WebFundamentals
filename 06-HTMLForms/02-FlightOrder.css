@@ -1,0 +1,36 @@
+*{
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+#wrapper {
+    width: 500px;
+    background-color: #FFC0CB;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label, .label {
+    font-size: 0.8em;
+}
+
+select, #departure, #return, input[type='submit']{
+    width: 240px;
+    font-size: 1.1em;
+}
+
+input[type='time'], input[type='number'] {
+    font-size: 1.1em;
+}
+
+.small-container {
+    vertical-align: top;
+    display: inline-block;
+}
+
+input[type='number'] {
+    width: 75px;
+}
