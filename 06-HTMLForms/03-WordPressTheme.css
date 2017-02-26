@@ -1,0 +1,15 @@
+#small-logo {
+    vertical-align: middle;
+}
+
+#search-button {
+    background:url(images/wordpress-logo-simplified.png) no-repeat;
+    cursor:pointer;
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+input[type="search"] {
+    padding: 5px;
+}
