@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problem 4 : Facebook Register Form</title>
+    <link rel="stylesheet" href="04-FakebookRegisterForm.css">
+</head>
+<body>
+<div id="container">
+    <span id="big-header">fakebook</span><span id="trademark">&reg;</span>
+    <h1>Registration</h1>
+    <h2>It is safe and it always will be!</h2>
+
+    <fieldset id="left">
+        <legend>None-Important Information</legend>
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name">
+        <input type="email" placeholder="Your Email">
+        <input type="text" pattern="[0-9]+" placeholder="Phone Number">
+        <input type="password" placeholder="Your Password">
+        <input type="url" placeholder="Website">
+        <label for="birthday">Birthday</label><br>
+        <input type="datetime" id="birthday"><br>
+        <input type="radio" value="female" name="gender"><span class="radio-label">Female</span>
+        <input type="radio" value="male" name="gender"><span class="radio-label">Male</span>
+        <input type="radio" value="other" name="gender"><span class="radio-label">Other</span>
+    </fieldset>
+    <fieldset id="right">
+        <legend>Important Information *required</legend>
+        <input type="text" placeholder="Country">
+        <input type="text" placeholder="Village">
+        <input type="text" placeholder="District"><br>
+        <input type="text" placeholder="Street">
+        <input type="text" class="street-info" pattern="[0-9]+" placeholder="Nr">
+        <input type="text" class="street-info" pattern="[0-9]+" placeholder="Floor">
+        <input type="text" class="street-info" pattern="[0-9]+" placeholder="Ap Nr"><br>
+        <label for="color-picker">Door Color</label><br>
+        <input type="color" id="color-picker" value="#FF80C0">
+        <input type="text" placeholder="Water Meter Nr">
+        <select name="size" id="doorsize">
+            <option value="size1" selected="selected">Aunt Panties' Size</option>
+            <option value="size2">Grandpa Pants' Size</option>
+            <option value="size3">Regular Size</option>
+            <option value="size3">Extra Large</option>
+        </select>
+        <br>
+        <label for="personal-info">More Personal Information</label>
+        <textarea name="Info" id="personal-info" cols="65" rows="4" placeholder="Give Us More Information!!!"></textarea>
+    </fieldset>
+    <br>
+    <input type="reset" value="Clear Form">
+    <input type="submit" value="Register">
+</div>
+</body>
+</html>

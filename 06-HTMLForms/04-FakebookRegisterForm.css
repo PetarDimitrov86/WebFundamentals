@@ -1,0 +1,111 @@
+* {
+    color : white;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #3B5997;
+}
+
+#container {
+    width: 100%;
+    text-align: center;
+}
+
+#big-header {
+    font-size: 7em;
+    font-weight: bolder;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 1.3em;
+    margin : 10px;
+}
+
+#left {
+    vertical-align: top;
+    width: 26%;
+}
+
+input[type='reset'] {
+    width: 27%;
+}
+
+#right, input[type='submit'] {
+    vertical-align: top;
+    width: 38%;
+}
+
+input[type='submit'] {
+    width: 39%;
+}
+
+legend {
+    font-weight: bold;
+    text-align: center;
+}
+
+input, select, textarea {
+    padding: 5px 0;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+input[type='datetime'] {
+    width: 70%;
+}
+
+input[type='color'] {
+    background-color: white;
+    width: 29%;
+    padding: 0;
+}
+
+label, .radio-label {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.radio-label {
+    margin: 10px 20px 10px 7px;
+}
+
+fieldset {
+    height: 250px;
+    margin: 15px;
+    width: auto;
+    display: inline;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.street-info {
+    width: 15%
+}
+
+select, option, input, textarea {
+    color: black;
+}
+
+textarea {
+    font-family: monospace;
+}
+
+select {
+    width: 29%;
+}
+
+input[type='reset'], input[type='submit'] {
+    background-color: #DDDDDD;
+    color: #3B5997;
+    padding: 10px;
+    margin: 0 15px 0 15px;
+    font-size: 1.4em;
+    border-radius: 10px;
+    border: none;
+}
